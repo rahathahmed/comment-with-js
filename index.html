@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Onclick</title>
+</head>
+<style>
+    section{ 
+        padding: 10px 10px;
+        width: 50%;
+       
+    }
+    button{ 
+        background-color: #3b5998;
+        color: #fff;
+        border: none;
+        padding: 10px;
+    }
+    #comment-container p{ 
+        background-color: #EBEDF0;
+        padding: 10px ;
+        border-radius: 60px;
+    }
+    input{ 
+        border: 1px solid #DDDFE2;
+        padding: 10px;
+        width: 85%;
+        border-radius: 10px;
+    }
+    .upload-img img{ 
+        width: 100%;
+    }
+    @media only screen and (max-width: 400px) {
+        section{ 
+        
+        width: 100%;
+       
+    }
+    .upload-img img{ 
+        width: 100%;
+    }
+    input{ 
+        border: 1px solid #DDDFE2;
+        padding: 10px;
+        width: 75%;
+        border-radius: 10px;
+    }
+}
+</style>
+<body>
+    
+<section> 
+<div class="upload-img">
+    <img src="img.jpg" alt="">
+</div>
+<div id="comment-container"> 
+    <p>Wow , I love It
+    </p>
+</div>
+<input name="" id="comment-box"> 
+<button id="user-comment">Post</button>
+</section>
+
+</body>
+<!-- <button onclick=" document.body.style.backgroundColor='red';"> Click : Red </button>
+
+    <button onclick="makeGreen()">Click :Green  </button>
+
+    <button id="make-blue">Click :Blue  </button>
+
+    <button id="make-yellow">Click :Yellow  </button>
+
+
+    <p id="welcome-text"></p>
+    <button onclick="clickWithText()"> Click To Text </button>
+
+
+    <p id="welcome-text"></p>
+    <input id="name-field" type="text"> 
+    <button id="login">Log in</button> -->
+<script src="event.js"></script>
+<script src="input.js"></script>
+<script src="comment.js"></script>
+</html>
